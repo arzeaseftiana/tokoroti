@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Roti</title>
+</head>
+
+<body>
+
+    <a href="#main-content">Lewati ke konten utama</a>
+
+    <header>
+        <h1>Toko Roti</h1>
+
+        <nav aria-label="Navigasi utama">
+            <a href="index.html">Beranda</a>
+            <a href="katalog.html">Katalog</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section>
+            <h2>Selamat Datang di Toko Roti</h2>
+            <p>
+                Kami menyediakan berbagai macam roti yang
+                lezat, segar, dan berkualitas.
+            </p>
+        </section>
+
+        <section aria-labelledby="produk-title">
+            <h2 id="produk-title">Produk Kami</h2>
+
+            <article>
+                <img src="images/roti-tawar.jpg" alt="Roti tawar">
+                <h3>Roti Tawar</h3>
+                <p>Roti tawar lembut dan cocok untuk sarapan.</p>
+            </article>
+
+            <article>
+                <img src="images/roti-cokelat.jpg" alt="Roti cokelat">
+                <h3>Roti Cokelat</h3>
+                <p>Roti lembut dengan isian cokelat.</p>
+            </article>
+
+            <article>
+                <img src="images/roti-keju.jpg" alt="Roti keju">
+                <h3>Roti Keju</h3>
+                <p>Roti dengan isian keju yang lezat.</p>
+            </article>
+
+            <article>
+                <img src="images/roti-sosis.jpg" alt="Roti sosis">
+                <h3>Roti Sosis</h3>
+                <p>Roti gurih dengan isian sosis.</p>
+            </article>
+
+            <article>
+                <img src="images/croissant.jpg" alt="Roti croissant">
+                <h3>Croissant</h3>
+                <p>Pastry renyah dan lembut.</p>
+            </article>
+
+        </section>
+
+        <section id="kontak" aria-labelledby="kontak-title">
+            <h2 id="kontak-title">Hubungi Kami</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="telepon">Nomor Telepon:</label><br>
+                    <input type="tel" id="telepon" name="telepon" required>
+                </p>
+
+                <p>
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="5" required></textarea>
+                </p>
+
+                <button type="submit">Kirim Pesan</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Toko Roti. Semua hak dilindungi.</p>
+    </footer>
+
+</body>
+</html>
